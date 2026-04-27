@@ -41,7 +41,7 @@ export default function Login() {
             {/* Remember Me */}
             <div className="remember-row">
               <IonToggle checked />
-              <IonText>Remember me</IonText>
+              <IonText>Remember Me</IonText>
             </div>
 
             {/* Login Button */}
