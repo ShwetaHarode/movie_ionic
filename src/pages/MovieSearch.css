@@ -1,0 +1,30 @@
+.movie-bg {
+  --background: linear-gradient(to bottom right, #30436b, #182269);
+  color: white;
+}
+.top{
+--background:#130853de;
+}
+
+.center-loading {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.error-text {
+  color: #ff4d4d;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.search_btn{
+     --background:#130853de;
+     color: white;
+     font-size: 20px;
+     text-transform: uppercase;
+     margin-top: 20px;
+}
+.favorite_btn{
+  margin-top: 25px;
+}

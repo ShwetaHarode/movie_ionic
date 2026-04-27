@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "92183060214",
+    "project_id": "watchset12-72740",
+    "storage_bucket": "watchset12-72740.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92183060214:android:5501f1b384a62fac8856d7",
+        "android_client_info": {
+          "package_name": "com.movie.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSXmLPloRhy0GfGWdhDMw6HKtmIGxdm28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

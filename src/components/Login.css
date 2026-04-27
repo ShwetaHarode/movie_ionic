@@ -1,0 +1,112 @@
+/* Background image */
+.login-bg {
+  --background: none;
+  background: url("/assets/login-bg.jpg") no-repeat center center/cover;
+}
+
+/* Centering container */
+.login-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Glassmorphism card */
+.login-card {
+  width: 100%;
+  max-width: 380px;
+  padding: 32px 26px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.15);
+  text-align: left;
+}
+
+/* Title + subtitle */
+.login-title {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.login-subtitle {
+  margin-top: 6px;
+  margin-bottom: 26px;
+  color: #e2e2e2;
+  font-size: 15px;
+}
+
+/* Input wrappers */
+.input-box {
+  --background: rgba(255, 255, 255, 0.10);
+  --border-radius: 12px;
+  --padding-start: 14px;
+  --inner-padding-end: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  margin-bottom: 18px;
+}
+
+/* Style internal input text (Shadow DOM) */
+ion-input::part(native) {
+  color: white;
+  font-size: 15px;
+}
+
+ion-input::part(placeholder) {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Icons inside input */
+.input-icon {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 20px;
+}
+
+/* Remember row */
+.remember-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0 22px;
+  color: white;
+  font-size: 14px;
+}
+
+/* Gradient login button */
+.login-btn {
+  --border-radius: 14px;
+  --background: linear-gradient(90deg, #8cd943, #19a664);
+  --color: white;
+  margin-top: 10px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Signup line */
+.signup-text {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  font-size: 14px;
+}
+
+.signup-text span {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Credit text */
+.credit {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.8;
+  color: white;
+}

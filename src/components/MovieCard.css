@@ -1,0 +1,20 @@
+.movie-card {
+  border-radius: 16px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+  transition: transform .2s ease;
+  --background:#130853de;
+}
+
+.movie-card:hover {
+  transform: scale(1.03);
+}
+
+.movie-card img {
+  height: 320px;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.recomend_card{
+  --background:#130853de;
+}

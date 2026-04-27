@@ -1,0 +1,88 @@
+.share-sheet {
+  margin-top: 24px;
+  padding: 16px;
+  background: var(--ion-color-light);
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.share-title {
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* Horizontal icons row inside modal */
+.modal-icons-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between icons */
+  padding: 16px 0;
+  flex-wrap: wrap; /* For smaller screens */
+}
+
+/* Icon styling */
+.social-icon {
+  font-size: 25px; /* Bigger icon size */
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #eee; /* Default background */
+  padding: 10px;
+}
+
+/* Hover effect */
+.social-icon:hover {
+  transform: scale(1.3) rotate(10deg); /* Bounce/rotate effect */
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
+/* Individual icon colors */
+.social-icon.facebook { background-color: #3b5998; color: #fff; }
+.social-icon.twitter { background-color: #1da1f2; color: #fff; }
+.social-icon.whatsapp { background-color: #25d366; color: #fff; }
+.social-icon.reddit { background-color: #96143f; color: #fff; }
+.social-icon.copy { background-color: #555; color: #fff; }
+
+/* Bottom Sheet Modal */
+
+.share-bottom-modal {
+  --background: linear-gradient(to bottom right, #30436b, #182269);
+}
+.share-bottom-modal .modal-content {
+  padding: 24px;
+  text-align: center;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  
+}
+
+/* Close button */
+.modal-close-btn {
+  margin-top: 40px; /* Gap between icons and close button */
+ --background:#130853de;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.modal-close-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+}
+.instagram{
+ --background:#a70838de;
+}
+.whatsapp{
+  --background:#15c93cde;
+}
+.social{
+  --background:#2029acde;
+}
